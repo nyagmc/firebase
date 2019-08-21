@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkpoint</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
+    <link rel="stylesheet" href="first.css"/>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-red">
+                <img src="res/logo.png">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Courses.html">courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Contact.html">contact</a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </nav>
+                
+            <center>
+   <div class="cover"> 
+       <div class="hey">
+    <h1>COURSES</h1></div>
+</div>
+</center>
+    <center>
+
+            <div class="imgcontainer">
+                    <div class="one row">
+                        <div class="divet col-lg-4 col-md-6 col-sm-12">
+                        <img class="tsawer" src="res/img1.png">
+                      <button class="btns"> <a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button> 
+
+                    </div>
+                    <div class="divet col-lg-4 col-md-6 col-sm-12">
+                        <img class="tsawer" src="res/img2.png">
+                      <button class="btns"> <a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button> 
+
+                    </div>
+                    <div class="divet col-lg-4 col-md-6 col-sm-12">
+                        <img class="tsawer" src="res/img3.png">
+                     <button class="btns"> <a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button>
+
+                    </div>
+                    </div>
+
+                    <div class="two row">
+                        <div class="divet col-lg-4 col-md-6 col-sm-12">
+                            <img class="tsawer" src="res/img4.png">
+                           <button class="btns"><a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button>
+
+                        </div>
+                        <div class="divet col-lg-4 col-md-6 col-sm-12">
+                            <img class="tsawer" src="res/img5.png">
+                         <button class="btns"><a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button> 
+
+                        </div>
+                        <div class="divet col-lg-4 col-md-6 col-sm-12">
+                            <img class="tsawer" src="res/img6.png">
+                           <button class="btns"><a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button> 
+
+                        </div>
+                        </div>
+                        
+                        <div class="three row">
+                            <div class="divet col-lg-4 col-md-6 col-sm-12">
+                                <img class="tsawer" src="res/img7.png">
+                               <button class="btns"><a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button>
+
+                            </div>
+                            <div class="divet col-lg-4 col-md-6 col-sm-12">
+                                <img class="tsawer" src="res/img8.png">
+                               <button class="btns"><a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button> 
+
+                            </div>
+                            <div class="divet col-lg-4 col-md-6 col-sm-12">
+                                <img class="tsawer" src="res/img9.png">
+                              <button class="btns"><a href="#ex1" rel="modal:open" class="btnz" style="text-decoration:none; color:black">View more</a></button> 
+
+                            </div>
+                            </div>
+                </div>
+
+
+
+        <div class="kkk">
+    <h2>Feedback</h2>
+    <br>
+    <br>
+    <button onclick="myone()">B</button>
+    <button onclick="mytwo()">I</button>
+    <button onclick="mythree()">UnderLine</button>
+    <select id="fs" onchange="Size()">
+            <option value="20px">20px</option>
+            <option value="30px">30px</option>
+            <option value="40px">40px</option>
+            </select>
+            <select id="fp" onchange="Police()">
+                    <option value="Arial">Arial</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Geneva">Geneva</option>
+                    </select>
+                    <br>
+                    <br>
+                    <textarea rows="5" cols="50" id="psst"></textarea>
+
+                    
+                </center>
+                    </div>
+
+                    <div id="ex1" class="modal">
+                            <p>This is GoMyCode Track.</p>
+                            <p>Each track has its own goal. 
+                            <br>
+                            <p>By adopting this track, you chose your own goal.</p>
+                          </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="Js/main.js"></script>
+
+</html>
